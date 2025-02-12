@@ -1,0 +1,4 @@
+function main() {
+    print("Trying to use undefined variable...");
+    print(undefined_var);
+} 

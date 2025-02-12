@@ -1,0 +1,24 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source files
+*.c     text diff=c
+*.h     text diff=c
+*.tr    text
+
+# Build files
+Makefile    text
+
+# Documentation
+*.md        text diff=markdown
+*.txt       text
+LICENSE     text
+
+# Git config
+.gitattributes  text
+.gitignore      text
+
+# Binary files
+*.exe   binary
+*.out   binary
+*.o     binary

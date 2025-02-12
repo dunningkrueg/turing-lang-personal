@@ -1,0 +1,39 @@
+# Build files
+*.o
+*.exe
+*.out
+turing
+run_tests
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Generated files
+*.c.orig
+*.h.orig
+*.tr.orig
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Test coverage
+coverage/
+*.gcda
+*.gcno
+
+# Temporary files
+*.tmp
+*.temp
+*.log
